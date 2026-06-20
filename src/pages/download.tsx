@@ -27,7 +27,7 @@ const DownloadPage: React.FC = () => (
         />
 
         <Tabs queryString="project">
-            <TabItem value="geyser" label="Geyser" default>
+            <TabItem value="geyser" label="EduGeyser" default>
                 <ProjectDownload
                     projectId="geyser"
                     description={<Translate id='pages.download.description.geyser'>A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.</Translate>}
@@ -44,7 +44,7 @@ const DownloadPage: React.FC = () => (
                     }}
                 />
             </TabItem>
-            <TabItem value="floodgate" label="Floodgate">
+            <TabItem value="floodgate" label="EduFloodgate">
                 <ProjectDownload
                     projectId="floodgate"
                     description={<Translate id='pages.download.description.floodgate'>Hybrid mode plugin to allow for connections from Geyser to join online mode servers.</Translate>}
